@@ -6,12 +6,7 @@ public class AdminUser {
 	private final String email;
 	private final String password;
 
-	public AdminUser(int id, String nome, String email, String password) {
-		this.id = id;
-		this.nome = nome;
-		this.email = email;
-		this.password = password;
-	}
+
 
 	public int getId() {
 		return id;
